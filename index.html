@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<style>
+    .But{
+        margin-left: 550px;    
+    }
+    .Click{
+        margin-left: 520px;    
+        color:rgb(99, 95, 91);
+    }
+canvas {
+    border:1px solid #d3d3d3;
+    background-color: #ffffff;
+    margin-left: 250px;
+
+}
+</style>
+</head>
+<body onload="startGame()">
+<script src="Game.js">
+</script>
+<br>
+<div class="But">
+<button onmousedown="accelerate(-0.4)" onmouseup="accelerate(0.05)">ACCELERATE</button>
+</div>
+
+<div class="Click">
+    <h2>Click to start</h2>
+</div>
+</body>
+</html>
